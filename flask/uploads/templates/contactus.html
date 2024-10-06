@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prepared By</title>
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='bg4.jpeg') }}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #ffffff;
+        }
+
+        .container {
+            padding: 20px;
+            margin: auto;
+        }
+
+        .preparedby {
+            text-align: center;
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        .team-info {
+            text-align: center;
+            margin-top: 20px;
+            margin: auto;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        
+        .navbar ul li {
+            color: #fff;
+            float: left;
+        }
+        
+        .navbar li a {
+            font-family: 'Montserrat';
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar li a:hover {
+            color: black;
+            background-color: white;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="model.html">Model</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="preparedby"> 
+        <h1><span style="color: black;"></span>Prepared By</h1></div>
+        <br>
+        <div class="contact-info">
+            <p><span style="color: black;"></span>Siva | sivasankar.saiprasad2021@vitstudent.ac.in </p>
+            <p><span style="color: black;"></span>Vignesh | vignesh.veeramalli2021@vitstudent.ac.in</p>
+            <p><span style="color: black;"></span>Revanth | gadhamsetty.revanth2021@vitstudent.ac.in</p>
+            <p><span style="color: black;"></span>Harsha | vardhan.vharsha2021@vitstudent.ac.in</p>
+        </div>
+        <br>
+        <div class="team-info">
+            <p><span style="color: black;"></span>Team ID: Team-593005</p>
+        </div>
+    </div>
+</body>
+
+</html>

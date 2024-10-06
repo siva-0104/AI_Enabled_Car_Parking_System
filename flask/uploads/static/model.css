@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-20%);
+    justify-content: center;
+    column-gap: 30px;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form .field input,
+.form .field button {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    padding: 0 15px;
+}
+
+.field input {
+    border: 1px solid #CACACA;
+    transition: border-bottom-width 0.3s;
+}
+
+.field input:focus {
+    border-bottom-width: 2px;
+}
+
+.field button {
+    color: #fff;
+    background-color: #0171d3;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; 
+}
+
+.field button:hover {
+    background-color: #016dcb;
+}
+
+.formBody {
+    text-align: center; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 10;
+    align-content: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar ul li {
+    color: #fff;
+    float: left;
+}
+
+.navbar li a {
+    font-family: 'Montserrat';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
